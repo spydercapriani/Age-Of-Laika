@@ -13,6 +13,7 @@
 		3DE1F04219CB622D0008E7DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE1F04119CB622D0008E7DD /* Images.xcassets */; };
 		3DE1F04519CB622D0008E7DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DE1F04319CB622D0008E7DD /* LaunchScreen.xib */; };
 		3DE1F05119CB622D0008E7DD /* Age_Of_LaikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE1F05019CB622D0008E7DD /* Age_Of_LaikaTests.swift */; };
+		3DE1F05B19CB62C00008E7DD /* AgeOfLaika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DE1F05A19CB62C00008E7DD /* AgeOfLaika.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3DE1F04A19CB622D0008E7DD /* Age Of LaikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Age Of LaikaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE1F04F19CB622D0008E7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DE1F05019CB622D0008E7DD /* Age_Of_LaikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age_Of_LaikaTests.swift; sourceTree = "<group>"; };
+		3DE1F05A19CB62C00008E7DD /* AgeOfLaika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AgeOfLaika.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		3DE1F03819CB622D0008E7DD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3DE1F05A19CB62C00008E7DD /* AgeOfLaika.jpg */,
 				3DE1F03919CB622D0008E7DD /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DE1F04019CB622D0008E7DD /* Main.storyboard in Resources */,
+				3DE1F05B19CB62C00008E7DD /* AgeOfLaika.jpg in Resources */,
 				3DE1F04519CB622D0008E7DD /* LaunchScreen.xib in Resources */,
 				3DE1F04219CB622D0008E7DD /* Images.xcassets in Resources */,
 			);
