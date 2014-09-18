@@ -32,11 +32,20 @@ class ViewController: UIViewController {
     }
     
     func ConvertHumanToDogYears(){
-        let DOG_YEAR_CONVERSION:Int = 7
         let HumanYears:Int = txtHumanYears.text.toInt()!
+        var dogYears:Double = 0
         
+        for index in 1...HumanYears {
+            if index <= 2 {
+                dogYears += 10.5
+            }else{
+                dogYears += 4
+            }
+        }
+
+        
+        lblDogYears.text = "\(dogYears)"
         lblDogYears.hidden = false
-        lblDogYears.text = "\(HumanYears * DOG_YEAR_CONVERSION)"
         txtHumanYears.text = ""
         txtHumanYears.resignFirstResponder()
     }
